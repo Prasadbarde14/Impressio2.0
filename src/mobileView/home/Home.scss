@@ -1,0 +1,25 @@
+#search_bar{
+    width: calc(100% - 32px);
+    margin: 0 16px;
+    height: 100%;
+    background-color: #F6F8FF;
+    border-radius: 10px;
+    border: none;
+}
+form.nosubmit {
+    border: none;
+    padding: 0;
+    height: 5%;
+  }
+  
+  input.nosubmit {
+    width: 100%;
+    border: none;
+    /* display: block; */
+    padding: 9px 4px 9px 40px;
+    background: transparent url(/src/assets/search.svg) no-repeat 13px center;
+  }
+  input.nosubmit::placeholder{
+    font-size: clamp(0.875rem, 3.804vw + 0.019rem, 3.063rem);
+    color: #B5B5B5;
+  }
