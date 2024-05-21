@@ -1,0 +1,26 @@
+.headerbar {
+  display: flex;
+  padding: 0px 16px 0px 16px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  width: calc(100% - 32px);
+  height: 8%;
+  .username {
+    width: calc(78% - 2px);
+    color: #231a61;
+    font-family: Lato;
+    font-size: clamp(1.25rem, 5.543vw + 0.003rem, 4.438rem);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 2%;
+  }
+  #profileicon,#impressioicon{
+    width: 10%;
+  }
+  #profileicon{
+    border: 1px solid #FFC700;
+    border-radius: 50%;
+  }
+}
